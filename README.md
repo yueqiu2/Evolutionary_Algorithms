@@ -1,9 +1,13 @@
 ## 1.CMA-ES in Reinforcement Learning for CSTR Control Problem
+- **Aiming to control temperature and concentration in CSTR, by controlling cooling jacket temperature**
+- **Reinforcement learning, using CMA-ES to optimize the policy net**
 - Concentration set point: 0.8 to 0.9
 - Reactor temperature set point: 330 to 320
 - Decision variable: Cooling jacket temperature
+
 **Trainning Plot**
 <img width="807" alt="Screenshot 2023-10-02 at 02 55 52" src="https://github.com/yueqiu2/Machine_Learning_Code/assets/146023548/a916bdb9-6a9f-4f11-81ec-db67dbcfeff0">
+
 **Best Policy**
 <img width="782" alt="Screenshot 2023-10-02 at 02 55 19" src="https://github.com/yueqiu2/Machine_Learning_Code/assets/146023548/426e1c54-a516-4ba4-85b4-843698af5c7b">
 
