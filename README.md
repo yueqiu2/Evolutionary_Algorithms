@@ -30,6 +30,8 @@
 
 ### Prediction of critical density
 <img width="429" alt="Screenshot 2023-10-02 at 03 45 21" src="https://github.com/yueqiu2/Machine_Learning_Code/assets/146023548/35ce0c2d-e958-444e-8bac-e9dbb5d93e35">
+
+
 At the critical point, only one phase exists. The heat of vaporization is zero. There is a stationary inflection point in the constant-temperature line on a P-V diagram. At the critical point exists a mathematical relationship:
 (Note: $T_{c}$ refers to critical temperature)
 $$ \displaystyle \Bigg[\frac{\partial P}{\partial V}\Bigg]_{T_{c}} = 0 $$
