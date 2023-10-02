@@ -33,7 +33,14 @@
 
 
 At the critical point, only one phase exists. The heat of vaporization is zero. There is a stationary inflection point in the constant-temperature line on a P-V diagram. At the critical point exists a mathematical relationship:
-(Note: $T_{c}$ refers to critical temperature)
-$$ \displaystyle \Bigg[\frac{\partial P}{\partial V}\Bigg]_{T_{c}} = 0 $$
-$$ \displaystyle \Bigg[\frac{\partial^{2} P}{\partial V^{2}}\Bigg]_{T_{c}} = 0 $$
-- We fit the liquid phase density and the gas phase density at a certain pressure in the phase envelope through the neural network, and then combine the two curves of density variation with pressure to finally find the point of minimum density variation, which is the critical point, and the pressure corresponding to the critical point is the critical pressure.
+
+**Note:** The following expressions involve derivatives of pressure \(P\) with respect to volume \(V\) at the critical temperature \(T_c\).
+
+1. The first derivative of pressure \(P\) with respect to volume \(V\) at \(T_c\) is zero:
+   \[ \left( \frac{\partial P}{\partial V} \right)_{T_c} = 0 \]
+
+2. The second derivative of pressure \(P\) with respect to volume \(V\) at \(T_c\) is also zero:
+   \[ \left( \frac{\partial^2 P}{\partial V^2} \right)_{T_c} = 0 \]
+   
+We fit the liquid phase density and the gas phase density at a certain pressure in the phase envelope through the neural network, and then combine the two curves of density variation with pressure to finally find the point of minimum density variation, which is the critical point, and the pressure corresponding to the critical point is the critical pressure.
+
